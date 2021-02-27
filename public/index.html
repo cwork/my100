@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <title>My #100DaysOfCode</title>
+  <style>
+    #menu-toggle:checked + #menu {
+      display: block;
+    }
+  </style>
+</head>
+<body class="bg-light">
+  <div class="page">
+    <header class="bg-green lg:px-16 px-6 flex flex-wrap items-center py-2">
+      <div class="flex-1 flex justify-between items-center">
+        <div class="flex items-center">
+          <svg width="50" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="59.1517" cy="60" rx="59.1517" ry="60" fill="#0091AD"/>
+            <path d="M55.1233 40.957V70.0031H61.6512V75H40.7085V70.0031H48.8381V47.5047L41.6792 52.0093L38.937 47.5047L49.469 40.957H55.1233Z" fill="#CBFF8C"/>
+            <path d="M79.1652 40.2185C82.9994 40.2185 85.9115 41.7529 87.9014 44.8216C89.8913 47.8739 90.8863 52.239 90.8863 57.917C90.8863 61.6913 90.4414 64.9077 89.5516 67.5662C88.678 70.2247 87.3675 72.2513 85.6203 73.6462C83.873 75.0411 81.7213 75.7385 79.1652 75.7385C75.3309 75.7385 72.4188 74.1959 70.4289 71.1108C68.439 68.0257 67.444 63.6277 67.444 57.917C67.444 52.239 68.439 47.8739 70.4289 44.8216C72.4188 41.7529 75.3309 40.2185 79.1652 40.2185ZM79.1652 45.0431C77.2885 45.0431 75.8971 46.0606 74.9912 48.0954C74.0852 50.1139 73.6322 53.3877 73.6322 57.917C73.6322 61.1334 73.7859 63.6688 74.0933 65.5231L83.0237 46.8893C82.603 46.2329 82.0772 45.7652 81.4463 45.4862C80.8153 45.1908 80.055 45.0431 79.1652 45.0431ZM79.1652 70.9139C80.4271 70.9139 81.4544 70.4872 82.2471 69.6339C83.056 68.7641 83.6627 67.3775 84.0672 65.4739C84.4716 63.5539 84.6738 61.0349 84.6738 57.917C84.6738 55.3406 84.5768 53.2072 84.3826 51.517L75.6949 69.5847C76.0994 70.0441 76.5847 70.3806 77.151 70.5939C77.7172 70.8072 78.3886 70.9139 79.1652 70.9139Z" fill="#CBFF8C"/>
+            <path d="M108.279 40.2185C112.113 40.2185 115.025 41.7529 117.015 44.8216C119.005 47.8739 120 52.239 120 57.917C120 61.6913 119.555 64.9077 118.665 67.5662C117.792 70.2247 116.481 72.2513 114.734 73.6462C112.987 75.0411 110.835 75.7385 108.279 75.7385C104.445 75.7385 101.533 74.1959 99.5426 71.1108C97.5527 68.0257 96.5577 63.6277 96.5577 57.917C96.5577 52.239 97.5527 47.8739 99.5426 44.8216C101.533 41.7529 104.445 40.2185 108.279 40.2185ZM108.279 45.0431C106.402 45.0431 105.011 46.0606 104.105 48.0954C103.199 50.1139 102.746 53.3877 102.746 57.917C102.746 61.1334 102.9 63.6688 103.207 65.5231L112.137 46.8893C111.717 46.2329 111.191 45.7652 110.56 45.4862C109.929 45.1908 109.169 45.0431 108.279 45.0431ZM108.279 70.9139C109.541 70.9139 110.568 70.4872 111.361 69.6339C112.17 68.7641 112.776 67.3775 113.181 65.4739C113.585 63.5539 113.788 61.0349 113.788 57.917C113.788 55.3406 113.69 53.2072 113.496 51.517L104.809 69.5847C105.213 70.0441 105.698 70.3806 106.265 70.5939C106.831 70.8072 107.502 70.9139 108.279 70.9139Z" fill="#CBFF8C"/>
+          </svg> 
+          <h1 class="ml-1 font-display">my#100DaysOfCode</h1>
+        </div>
+        <label for="menu-toggle" class="cursor-pointer lg:hidden block">
+          <svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="20" height="2" fill="#0091AD"/>
+            <rect y="6" width="20" height="2" fill="#0091AD"/>
+            <rect y="12" width="20" height="2" fill="#0091AD"/>
+            </svg>
+        </label>
+        <input type="checkbox" class="hidden" id="menu-toggle">
+        <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
+          <nav>
+            <ul class="lg:flex items-center justify-between text-base text-blue pt-4 lg:pt-0">
+              <li>
+                <a href="#" class="p-4 py-2 px-0 block border-b-2 border-transparent hover:text-red">Features</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>     
+    </header>
+  </div>
+</body>
+</html>
